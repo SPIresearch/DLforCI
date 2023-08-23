@@ -13,6 +13,6 @@ Additionally, ensure that the checkpoint files are situated within the "checkpoi
 <code data-enlighter-language="raw" class="EnlighterJSRAW">python segmentation.py --input <img_fold> --model_path <checkpoint_fold> </code>  
 
 ## CI Assessment
-<code data-enlighter-language="raw" class="EnlighterJSRAW">python Calculate_CI.py --input <img_fold> --model_path <checkpoint_fold> </code>  
+<code data-enlighter-language="raw" class="EnlighterJSRAW">python calculate_CI.py --input <img_fold> --model_path <checkpoint_fold> </code>  
 
 Note that here the img_fold should be the folder containing input images that pertain to a single patient's dataset.
