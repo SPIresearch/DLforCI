@@ -7,8 +7,7 @@ We list our environment in requirements.txt.
 
 Please place the images, which can either be whole-slide images (WSI) or cropped patches depending on your available computer resources, into an "img_fold."
 
-Additionally, ensure that the checkpoint files are situated within the "checkpoint_fold." Kindly note that our checkpoints have been uploaded for your use. For the SAM checkpoints, you can access the following URL: https://github.com/facebookresearch/segment-anything.
-
+Our checkpoints have been uploaded to https://drive.google.com/drive/folders/18wjc0KUGuKP5j-GWLIt-PgolZElNPgLS?usp=sharing. For the SAM checkpoints, you can access the following URL: https://github.com/facebookresearch/segment-anything. Ensure that all checkpoint files are situated within the "checkpoint_fold."
 ## Segmentation
 <code data-enlighter-language="raw" class="EnlighterJSRAW">python segmentation.py --input <img_fold> --model_path <checkpoint_fold> </code>  
 
